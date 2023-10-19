@@ -1,0 +1,51 @@
+#hero-sec {
+    background-image: url("../static/images/architect.jpg");
+    min-height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+}
+
+#main-text {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+#main-text-two {
+    letter-spacing: 4px;
+}
+
+#card {
+    position: relative;
+}
+
+#card-button {
+    position: absolute;
+    top: 0;
+    left: 10;
+    padding: 5px 9px;
+    border-radius: 0%;
+}
+
+.about-p {
+    text-align: justify;
+}
+
+.about-names {
+    font-size: 1.6rem;
+    margin-top: 10px;
+}
+
+.about-job {
+    opacity: 0.7;
+}
+
+.about-dec {
+    text-align: justify;
+}
+
+#about-btn{
+    background-color: rgb(229, 229, 229);
+    border-radius: 0%;
+}
