@@ -1,3 +1,7 @@
+hr {
+    opacity: .1;
+}
+
 #hero-sec {
     background-image: url("../static/images/architect.jpg");
     min-height: 70vh;
@@ -45,7 +49,30 @@
     text-align: justify;
 }
 
-#about-btn{
+#about-btn {
     background-color: rgb(229, 229, 229);
     border-radius: 0%;
+}
+
+#end-sec {
+    background-image: url("../static/images/map.jpg");
+    min-height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+}
+
+#footer {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: black;
+    color: #fff;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #fff;
 }
