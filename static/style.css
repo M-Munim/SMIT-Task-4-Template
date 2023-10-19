@@ -4,6 +4,25 @@ hr {
 
 nav {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px 10px 10px;
+    width: 100%;
+    z-index: 100;
+    background-color: #fff;
+    position: fixed;
+}
+
+.nav-left a {
+    text-decoration: none;
+}
+
+.nav-right,
+a {
+    text-decoration: none;
+    color: #000;
+    padding: 0px 10px;
 }
 
 #hero-sec {
